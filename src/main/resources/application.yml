@@ -1,0 +1,18 @@
+
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://sid-sqldb.database.windows.net:1433;database=sqldb;user=Sid2703@sid-sqldb;password={Sid@2703};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: Sid2703
+    password: Sid@2703
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
+  
+  
+  
